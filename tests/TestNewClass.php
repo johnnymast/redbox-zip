@@ -9,13 +9,13 @@
 namespace Redbox\Package\Tests;
 
 
-use Redbox\Package\NewClass;
+use Redbox\Package\Zip;
 
 
 class TestNewClass extends \PHPUnit_Framework_TestCase
 {
     public function testConstruct() {
-        new NewClass;
+        new Zip;
     }
 
 }

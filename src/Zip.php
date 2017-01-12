@@ -1,8 +1,8 @@
 <?php
-namespace Redbox\Package;
+namespace Redbox\Zip;
 
 
-class NewClass
+class Zip
 {
     public function __construct ()
     {

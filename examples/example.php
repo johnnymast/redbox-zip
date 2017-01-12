@@ -1,5 +1,9 @@
 <?php
 require 'autoload.php';
+error_reporting(E_ALL);
+ini_set('display_errors', true);
 
-/** @var \Redbox\Package\NewClass $instance */
-$instance = new \Redbox\Package\NewClass();
+$instance = new \Redbox\Zip\Unzip(dirname(__FILE__).'/zip.zip');
+
+
+echo 'done';
